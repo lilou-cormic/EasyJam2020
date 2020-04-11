@@ -13,27 +13,27 @@ namespace PurpleCable
 
         public void StartGame()
         {
-            StartCoroutine(GoToScene("Main"));
+            LoadScene("Main");
         }
 
         public void ShowCredits()
         {
-            StartCoroutine(GoToScene("Credits"));
+            LoadScene("Credits");
         }
 
         public void ShowControls()
         {
-            StartCoroutine(GoToScene("Controls"));
+            LoadScene("Controls");
         }
 
         public void ShowSettings()
         {
-            StartCoroutine(GoToScene("Settings"));
+            LoadScene("Settings");
         }
 
         public void GoToMenu()
         {
-            StartCoroutine(GoToScene("Menu"));
+            LoadScene("Menu");
         }
 
         public void QuitGame()

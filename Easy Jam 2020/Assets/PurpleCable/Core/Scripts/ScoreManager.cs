@@ -67,9 +67,10 @@ namespace PurpleCable
         /// <summary>
         /// Sets the best score, saves it, and triggers ScoreChanged
         /// </summary>
-        public static void SetHighScore()
+        /// <param name="isLowerBetter">If a lower score is better</param>
+        public static void SetHighScore(bool isLowerBetter = false)
         {
-            if (Score > HighScore)
+            if ((!isLowerBetter && Score > HighScore) || (isLowerBetter && Score < HighScore))
             {
                 HighScore = Score;
 

@@ -6,7 +6,7 @@ using TMPro;
 namespace PurpleCable
 {
     [RequireComponent(typeof(Button))]
-    public class UIButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler
+    public class UIButton : MonoBehaviour, IPointerEnterHandler, ISelectHandler
     {
         private Button Button;
 
@@ -51,20 +51,14 @@ namespace PurpleCable
             SelectedSound.Play();
         }
 
-        public virtual void OnPointerEnter(PointerEventData eventData)
+        public void OnPointerEnter(PointerEventData eventData)
         {
-            if (Button.enabled)
-                PlaySelectedSound();
+            EventSystem.current.SetSelectedGameObject(gameObject);
         }
 
-        public virtual void OnPointerExit(PointerEventData eventData)
+        public void OnSelect(BaseEventData eventData)
         {
-        }
-
-        public virtual void OnSelect(BaseEventData eventData)
-        {
-            if (Button.enabled)
-                PlaySelectedSound();
+            PlaySelectedSound();
         }
     }
 }

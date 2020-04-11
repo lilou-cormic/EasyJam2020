@@ -996,7 +996,7 @@ MonoBehaviour:
   m_material: {fileID: 0}
   m_sharedMaterial: {fileID: 0}
   m_isDefaultMaterial: 0
-  m_padding: 7.8312497
+  m_padding: 0
   m_canvasRenderer: {fileID: 682069164}
   m_TextComponent: {fileID: 1728873426}
   m_materialReferenceIndex: 1
@@ -1221,12 +1221,12 @@ PrefabInstance:
     - target: {fileID: 2901855970248396496, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 600
+      value: 360.57
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396496, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 150
+      value: 111.36
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396496, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
@@ -1276,7 +1276,7 @@ PrefabInstance:
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_text
-      value: Game
+      value: Fill it
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
@@ -1291,12 +1291,12 @@ PrefabInstance:
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
@@ -1311,7 +1311,7 @@ PrefabInstance:
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2901855970248396497, guid: 8730914f11f3ee04b96f96df930974c6,
         type: 3}
@@ -2575,7 +2575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -10, y: 10}
+  m_AnchoredPosition: {x: -13, y: 13}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &2096085440
