@@ -24,4 +24,9 @@ public class Selector : MonoBehaviour
             x += 2;
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(new Vector3((12 / 2f) - 0.5f, transform.position.y, 0), new Vector3(12f, 1.5f));
+    }
 }

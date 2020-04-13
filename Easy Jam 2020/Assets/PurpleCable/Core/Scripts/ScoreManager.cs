@@ -70,7 +70,7 @@ namespace PurpleCable
         /// <param name="isLowerBetter">If a lower score is better</param>
         public static void SetHighScore(bool isLowerBetter = false)
         {
-            if ((!isLowerBetter && Score > HighScore) || (isLowerBetter && Score < HighScore))
+            if (HighScore == 0 || (!isLowerBetter && Score > HighScore) || (isLowerBetter && Score < HighScore))
             {
                 HighScore = Score;
 

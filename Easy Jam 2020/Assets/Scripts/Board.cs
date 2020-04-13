@@ -99,4 +99,9 @@ public class Board : MonoBehaviour
 
         return list;
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(new Vector3((ColCount / 2f) - 0.5f, (-RowCount / 2f) + 0.5f), new Vector3(ColCount, RowCount));
+    }
 }
