@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System.Collections;
 
 public class Board : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Board : MonoBehaviour
 
     private const int ColCount = 12;
     private const int RowCount = 18;
+
+    public bool IsReady { get; private set; } = false;
 
     public bool IsFilled
     {
@@ -30,20 +33,25 @@ public class Board : MonoBehaviour
 
     private void Start()
     {
-        CreateGrid();
+        StartCoroutine(CreateGrid());
     }
 
-    private void CreateGrid()
+    private IEnumerator CreateGrid()
     {
         _grid = new Tile[ColCount, RowCount];
 
-        for (int col = 0; col < ColCount; col++)
+        for (int row = 0; row < RowCount; row++)
         {
-            for (int row = 0; row < RowCount; row++)
+            for (int col = 0; col < ColCount; col++)
             {
                 CreateTile(col, row);
+                yield return new WaitForSeconds(0.01f);
             }
         }
+
+        IsReady = true;
+
+        yield return null;
     }
 
     private void CreateTile(int col, int row)

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b531692a41a8c41a7f52b32ca95e14, type: 3}
   m_Name: Fire
   m_EditorClassIdentifier: 
-  ElementType: 2
+  ElementType: 3
   Color: {r: 0.98039216, g: 0.41568628, b: 0.039215688, a: 1}
   Sprite: {fileID: 21300000, guid: 009d0094a84f9a94d92c1fc034b2f5c4, type: 3}

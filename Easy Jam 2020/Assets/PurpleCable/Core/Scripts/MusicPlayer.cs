@@ -52,6 +52,14 @@ namespace PurpleCable
 
         public void PlayMusic()
         {
+            if (GameMusicAudioSource.clip == MenuMusicAudioSource.clip)
+            {
+                if (!MenuMusicAudioSource.isPlaying)
+                    MenuMusicAudioSource.Play();
+
+                return;
+            }
+
             switch (SceneManager.GetActiveScene().name)
             {
                 case "Menu":

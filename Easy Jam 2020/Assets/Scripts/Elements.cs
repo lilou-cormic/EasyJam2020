@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -20,9 +21,10 @@ public class Elements : MonoBehaviour
 
     public static IEnumerable<ElementDef> GetElements()
     {
-        foreach (var elementDef in ElementDefs.Values)
+        foreach (ElementType elementType in Enum.GetValues(typeof(ElementType)))
         {
-            yield return elementDef;
+            if (ElementDefs.ContainsKey(elementType))
+                yield return ElementDefs[elementType];
         }
     }
 }

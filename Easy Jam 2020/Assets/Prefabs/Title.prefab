@@ -66,15 +66,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: Title
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c41ff94c6e7e8fd4580edb3f42f77164, type: 2}
+  m_sharedMaterial: {fileID: -2282464876198994935, guid: c41ff94c6e7e8fd4580edb3f42f77164,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4292057088
+  m_fontColor: {r: 0, g: 0.59607846, b: 0.82745105, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92,10 +93,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 101.15
+  m_fontSize: 66
   m_fontSizeBase: 90
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 120
   m_fontStyle: 1
@@ -171,4 +172,3 @@ MonoBehaviour:
   Tick: 1.5
   MinScale: {x: 0.95, y: 1, z: 1}
   MaxScale: {x: 1, y: 0.95, z: 1}
-  IsOnlyOnMouseOver: 0

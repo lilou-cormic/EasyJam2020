@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] Board Board = null;
 
+    [SerializeField] AudioClip WinSound = null;
+
     private bool _isWinning = false;
 
     private void Awake()
@@ -26,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Picker_ElementPicked(ElementDef elementDef)
     {
-        if (_isWinning)
+        if (_isWinning || !Board.IsReady)
             return;
 
         Board.Fill(elementDef);
@@ -42,6 +44,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator Win()
     {
+        WinSound.Play();
+
         yield return new WaitForSeconds(1f);
 
         ScoreManager.SetHighScore(isLowerBetter: true);

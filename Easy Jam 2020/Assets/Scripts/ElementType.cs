@@ -6,11 +6,15 @@ public enum ElementType
 {
     None = 0,
 
-    Earth = 1,
+    Air = 1,
 
-    Fire = 2, 
+    Earth = 2,
 
-    Water = 3,
+    Fire = 3, 
 
-    Air = 4,
+    Water = 4,
+
+    Love = 5,
+
+    Metal = 6,
 }

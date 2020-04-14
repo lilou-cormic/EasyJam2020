@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1984279771439072962}
   - component: {fileID: 6551016878942303652}
   - component: {fileID: 4234683902267052751}
+  - component: {fileID: 3686117716071305184}
+  - component: {fileID: 221662751270478887}
   m_Layer: 0
   m_Name: Picker
   m_TagString: Untagged
@@ -144,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpriteRenderer: {fileID: 1984279771439072961}
+  ClickSound: {fileID: 8300000, guid: b1190723e1a6cc14097a5f5d5b03ec78, type: 3}
 --- !u!58 &4234683902267052751
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,3 +163,33 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &3686117716071305184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984279771439072963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f036db1c3c1224698cc803d1ca5066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 0.05
+  Delay: 0
+  EndLocalScale: {x: 1.8, y: 1.8, z: 1}
+--- !u!114 &221662751270478887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984279771439072963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f036db1c3c1224698cc803d1ca5066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 0.05
+  Delay: 0.2
+  EndLocalScale: {x: 1.5, y: 1.5, z: 1}

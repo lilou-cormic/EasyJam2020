@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b531692a41a8c41a7f52b32ca95e14, type: 3}
   m_Name: Earth
   m_EditorClassIdentifier: 
-  ElementType: 1
+  ElementType: 2
   Color: {r: 0.5921569, g: 0.4431373, b: 0.2901961, a: 1}
   Sprite: {fileID: 21300000, guid: 9a52142e25cbf6148be310984bfaebda, type: 3}
