@@ -8,10 +8,10 @@ https://lilou-cormic.itch.io/elementis
 
 Game created by lilou_cormic (www.purplecable.ca) for [Easy Jam (8 Bits to Infinity) (Apr. 2020)](https://itch.io/jam/easy-jam)
 
-Contains music ©2019 Joshua McLean (www.mrjoshuamclean.com) 
+Contains music ©2019 Joshua McLean (www.mrjoshuamclean.com)  
 Licensed under Creative Commons Attribution-ShareAlike 4.0 International
 
-Contains artwork ©2020 LineartLemur (twitter.com/LineartLemur) 
+Contains artwork ©2020 LineartLemur (twitter.com/LineartLemur)  
 Licensed under Creative Commons Attribution 4.0 International 
 
 Contains assets by Kenney (www.kenney.nl)  
